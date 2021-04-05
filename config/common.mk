@@ -218,4 +218,8 @@ $(call inherit-product, vendor/aosp/config/rro_overlays.mk)
 # Custom Overlays
 $(call inherit-product, vendor/overlay/overlays.mk)
 
+# Packages
+PRODUCT_PACKAGES += \
+   GamingMode
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
