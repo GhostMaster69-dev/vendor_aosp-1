@@ -659,7 +659,7 @@ function pixelrebase() {
 }
 
 function mka() {
-    m -j "$@"
+    m "$@"
 }
 
 function cmka() {
